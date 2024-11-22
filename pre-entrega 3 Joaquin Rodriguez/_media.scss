@@ -1,0 +1,44 @@
+@media only screen and (max-width: 991px)
+{
+    .navbar
+    {
+        font-size: 10px;
+        justify-content: space-between;
+        gap: 100px;
+
+    } 
+
+    .layout
+    {
+        width: 90%;
+
+        img
+        {
+            width: 50%;
+            align-self: center;
+        }
+    }
+
+    .cards
+    {
+        .menu
+        {
+            width: 100%;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            .card
+             {
+               width: 23%;
+               font-size: 12px;
+
+               h2
+               {
+                font-size: 20px;
+               }
+             }
+            
+        }
+        
+    }
+}

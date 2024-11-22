@@ -1,0 +1,23 @@
+.partners
+{
+    background-color: $colorprincipal;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    margin-top: 150px;
+
+    .imagenes_part
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+
+        img
+        {
+            width: 10%;
+            height: 20%;
+        }
+    }
+}

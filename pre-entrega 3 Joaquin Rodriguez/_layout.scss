@@ -1,0 +1,67 @@
+.layout
+{
+    margin:0 auto;
+    width: 80%;
+    height: 50%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+
+    .texto
+    {
+        margin-top: 80px;
+        flex-grow: 1;
+        h5
+        {
+            color: #474747;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        h2
+        {
+            font-size: 40px;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        h3
+        {
+            color: $colorprincipal;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        p
+        {
+            color: #4d4c4c;
+            font-weight: 200;
+            margin-bottom: 30px;
+        }
+
+        .botones
+        {
+            display: flex;
+            gap: 50px;
+            a
+            {
+                width: 25%;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                background-color: $colorprincipal;
+                border-radius: 30px;
+                padding: 8px;
+                text-decoration: none;
+            
+            }
+        }
+    }
+
+    img
+    {
+        flex-shrink: 1;
+        flex-grow: 1;
+        border-radius: 60px;
+    }
+
+}

@@ -1,0 +1,243 @@
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 500px;
+  font-weight: normal;
+  color: #918787;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 17px;
+}
+
+span {
+  font-weight: normal;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(68, 68, 68, 0.5960784314);
+  font-size: 20px;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 50px;
+  border-radius: 30px;
+}
+
+footer {
+  background-color: #161616;
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+footer h1 {
+  width: 30%;
+  height: 17%;
+  background-color: rgba(13, 190, 37, 0.808);
+  color: white;
+  border-radius: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.layout {
+  margin: 0 auto;
+  width: 80%;
+  height: 50%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+.layout .texto {
+  margin-top: 80px;
+  flex-grow: 1;
+}
+.layout .texto h5 {
+  color: #474747;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.layout .texto h2 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.layout .texto h3 {
+  color: #0ECB00;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.layout .texto p {
+  color: #4d4c4c;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.layout .texto .botones {
+  display: flex;
+  gap: 50px;
+}
+.layout .texto .botones a {
+  width: 25%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: #0ECB00;
+  border-radius: 30px;
+  padding: 8px;
+  text-decoration: none;
+}
+.layout img {
+  flex-shrink: 1;
+  flex-grow: 1;
+  border-radius: 60px;
+}
+
+.partners {
+  background-color: #0ECB00;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+.partners .imagenes_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.partners .imagenes_part img {
+  width: 10%;
+  height: 20%;
+}
+
+.ventas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px;
+  margin-bottom: 0px;
+}
+
+.caja_grande {
+  background-color: rgba(68, 68, 68, 0.2941176471);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.imagen_pc img {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.info_pc h3 {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 70px;
+  text-align: center;
+}
+
+.info_pc ul {
+  border: solid white;
+  background-color: white;
+  color: gray;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.cards {
+  width: 100%;
+  background-color: #111;
+  padding: 70px;
+  margin-top: 150px;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-around;
+}
+.menu .card {
+  background-color: #252525;
+  color: white;
+  width: 18%;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 50px;
+  gap: 0 20px;
+}
+.menu .card img {
+  width: 30%;
+  height: 20%;
+  margin-bottom: 40px;
+}
+.menu .card h2 {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    font-size: 10px;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .layout {
+    width: 90%;
+  }
+  .layout img {
+    width: 50%;
+    align-self: center;
+  }
+  .cards .menu {
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .cards .menu .card {
+    width: 23%;
+    font-size: 12px;
+  }
+  .cards .menu .card h2 {
+    font-size: 20px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/*# sourceMappingURL=estilos.css.map */

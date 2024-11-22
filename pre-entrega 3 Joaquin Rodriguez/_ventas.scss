@@ -1,0 +1,47 @@
+.ventas
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 50px;
+    margin-bottom: 0px;
+}
+
+.caja_grande
+{
+    background-color: #4444444b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.imagen_pc img
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.info_pc h3
+{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 70px;
+    text-align: center;
+
+
+}
+
+.info_pc ul
+{
+    border: solid white;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 30px;
+}
